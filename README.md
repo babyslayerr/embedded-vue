@@ -1,6 +1,6 @@
 # embedded-vue
 
-### [repository](https://github.com/babyslayerr/basicSpringProject-test)프로젝트에 사용된 정적 빌드 앱
+### [basicSpringProject-test](https://github.com/babyslayerr/basicSpringProject-test)프로젝트에 사용된 정적 빌드 앱
 - 간단한 로그인 구현
 - 게시글 CRUD
 - vue-router 없이 직접 routing구현
