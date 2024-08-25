@@ -7,7 +7,7 @@
           // 상태코드 출력
           console.log(response.status)
 
-          // 결제고유번호 쿠키에 SET
+          // 결제고유번호 쿠키에 SET ( httpOnly가 설정되지 않은 쿠키는 GET요청에 포함된다 )
           document.cookie = "tid="+response.data.tid + ";Max-Age=180" // 결제 고유 번호, 만료기간 3분
           // session도 담아보자 // 하지만 서버전송에 필요하기 때문에 탈락
           // window.sessionStorage.setItem("tid",response.data.tid) // 결제 고유 번호
